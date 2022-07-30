@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+div {
+  display: block;
+}
+
+/*                              HEADER                              */
+/* ---------------------------------------------------------------- */
+
+.header {
+  background-color: #007765;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+#top {
+  max-width: 1219px;
+  margin: 0 auto;
+  padding: 0 55px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navigation {
+  display: flex;
+  padding: 28px 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+}
+
+span {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#backtotop {
+    position: absolute;
+    margin: -84px;
+}
+
+a {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.logo {
+    margin: 20px 0;
+    /* margin-bottom: 20px; */
+    display: flex;
+}
+
+.link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+}
+
+/*                              PIPERNET                            */
+/* ---------------------------------------------------------------- */
+
+.Jumbotron {
+  /* top: 84px; */
+  margin-top: 84px;
+  /* padding-top: 84px; */
+  background: url(img/image-8.png);
+  background-size: cover;
+  padding: 160px 0;
+}
+
+#Jumbo {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-size: 72px;
+  font-weight: 500;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* margin-top: 84px; */
+  color: #fff;
+}
+
+/*                            THE PROBLEM                           */
+/* ---------------------------------------------------------------- */
+
+#TheProblem {
+  background: #eeeeee;
+}
+
+.content {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  width: 88%;
+  margin: auto;
+  margin-bottom: 40px;
+
+  color: #000000;
+}
+
+#quote {
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+
+/*                                HERO                              */
+/* ---------------------------------------------------------------- */
+
+#Hero {
+  background: url(img/image-9.png);
+  background-size: cover;
+  padding: 128px 15%;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*                                PPC                               */
+/* ---------------------------------------------------------------- */
+
+#PPC {
+  margin-bottom: 92px;
+}
+
+#logo2 {
+  float: left;
+  clear: both;
+  margin: 0 48px 48px 0;
+}
+
+/*                              THE TEAM                            */
+/* ---------------------------------------------------------------- */
+
+#TheTeam {
+  background: #eeeeee;
+  padding: 40px 55px 120px 55px;
+  
+}
+
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.teamname {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+  text-align: center;
+}
+
+.teamclass {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.teamph1 {
+  padding: 55px 30px 30px; 
+  width: 350px;
+  text-align: center;
+}
+
+/*                               FOOTER                             */
+/* ---------------------------------------------------------------- */
+
+footer {
+  background: #333333;
+}
+
+#footer {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  width: 45%;
+  margin: auto;
+  padding-top: 48px;
+  padding-bottom: 64px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  color: #ffffff;
+}
+
+
+/*                                 TEXT                             */
+/* ---------------------------------------------------------------- */
+
+h2 {
+  font-size: 64px;
+  font-weight: 500;
+  color: #007765;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+  margin-bottom: 16px;
+}
+
+
+/*                                LINKS                             */
+/* ---------------------------------------------------------------- */
+
+
+
