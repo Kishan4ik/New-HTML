@@ -161,15 +161,15 @@ a {
 
 #TheTeam {
   background: #eeeeee;
-  padding: 40px 55px 120px 55px;
-  
+  padding-top: 40px;
+  padding-bottom: 120px;
 }
 
 
 .photo {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .teamname {
@@ -193,6 +193,7 @@ a {
 
 .teamph1 {
   padding: 55px 30px 30px; 
+  flex-basis: 33%;
   width: 350px;
   text-align: center;
 }
